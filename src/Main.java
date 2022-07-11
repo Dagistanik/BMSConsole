@@ -21,7 +21,7 @@ public class Main {
                     String title = resultSet.getString(2);
                     String author = resultSet.getString(3);
                     String genre = resultSet.getString(4);
-                    System.out.println(id + ", "+ title + ", " + author + ", " + genre);
+                    System.out.println(id + ", "+ title + ", " + author + ",  " + genre);
                 }
 
                 connection.close();
